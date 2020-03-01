@@ -44,6 +44,16 @@ player_inventary < = > Value inventary from player
 ---
 
 ```py
+new_init_exp = {
+    'class': { # <-- this is declared the class from player by exp from the class
+        'exp': {
+            # <-- this is declared the codes from declared by the init value exp by the class
+        },
+    },
+}
+```
+
+```py
 # config_init_map.py
 new_init_map = {
     'class': { # <-- this is declared the class from player in initial map
