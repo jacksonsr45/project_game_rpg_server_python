@@ -5,7 +5,7 @@ from .config_speel_player import new_speel
 from .config_inventary import new_inventary
 from .config_skill_player import new_skill
 from .config_init_map import new_init_map
-
+from .config_init_exp import new_init_exp
 
 """"
 Configs from set values by init to player!
@@ -21,6 +21,7 @@ values_init_player = {
         'inventary': new_inventary['knight'],
         'knight_set': new_set['knight'],
         'knight_init_map': new_init_map['knight'],
+        'knight_exp': new_exp['knight'],
         'knight_speels': {
                 'speel_q': new_speel['knight']['Q'],
                 'speel_w': new_speel['knight']['W'],
@@ -37,6 +38,7 @@ values_init_player = {
         'inventary': new_inventary['mage'],
         'mage_set': new_set['mage'],
         'mage_init_map': new_init_map['mage'],
+        'knight_exp': new_exp['knight'],
         'mage_speels': {
                 'speel_q': new_speel['mage']['Q'],
                 'speel_w': new_speel['mage']['W'],
@@ -53,6 +55,7 @@ values_init_player = {
         'inventary': new_inventary['paladin'],
         'paladin_set': new_set['paladin'],
         'paladin_init_map': new_init_map['paladin'],
+        'knight_exp': new_exp['knight'],
         'paladin_speels': {
                 'speel_q': new_speel['paladin']['Q'],
                 'speel_w': new_speel['paladin']['W'],
@@ -69,6 +72,7 @@ values_init_player = {
         'inventary': new_inventary['ranger'],
         'ranger_set': new_set['ranger'],
         'ranger_init_map': new_init_map['ranger'],
+        'knight_exp': new_exp['knight'],
         'ranger_speels': {
                 'speel_q': new_speel['ranger']['Q'],
                 'speel_w': new_speel['ranger']['W'],

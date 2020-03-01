@@ -20,6 +20,7 @@ class New_Player:
             self.value_skills = set_player['player_knight']['knight_skills']
             self.value_set = set_player['player_knight']['knight_set']
             self.value_init_map = set_player['player_knight']['knight_init_map']
+            self.value_init_exp = set_player['player_knight']['knight_init_exp']
             self.value_inventary = set_player['player_knight']['inventary']
         elif self.player_type == 'MAGE':
             self.value_life = set_player['player_mage']['life']
@@ -30,6 +31,7 @@ class New_Player:
             self.value_skills = set_player['player_mage']['mage_skills']
             self.value_set = set_player['player_mage']['mage_set']
             self.value_init_map = set_player['player_mage']['mage_init_map']
+            self.value_init_exp = set_player['player_mage']['mage_init_exp']
             self.value_inventary = set_player['player_mage']['inventary']
         elif self.player_type == 'PALADIN':
             self.value_life = set_player['player_paladin']['life']
@@ -40,6 +42,7 @@ class New_Player:
             self.value_skills = set_player['player_paladin']['paladin_skills']
             self.value_set = set_player['player_paladin']['paladin_set']
             self.value_init_map = set_player['player_paladin']['paladin_init_map']
+            self.value_init_exp = set_player['player_paladin']['paladin_init_exp']
             self.value_inventary = set_player['player_paladin']['inventary']
         elif self.player_type == 'RANGER':
             self.value_life = set_player['player_ranger']['life']
@@ -50,6 +53,7 @@ class New_Player:
             self.value_skills = set_player['player_ranger']['ranger_skills']
             self.value_set = set_player['player_ranger']['ranger_set']
             self.value_init_map = set_player['player_ranger']['ranger_init_map']
+            self.value_init_exp = set_player['player_ranger']['ranger_init_exp']
             self.value_inventary = set_player['player_ranger']['inventary']
 
         create_new = {
@@ -64,6 +68,7 @@ class New_Player:
             'player_skills': self.value_skills,
             'player_set': self.value_set,
             'player_init_map': self.value_init_map,
+            'player_init_exp': self.value_init_exp,
             'player_inventary': self.value_inventary,
         }
         return create_new
