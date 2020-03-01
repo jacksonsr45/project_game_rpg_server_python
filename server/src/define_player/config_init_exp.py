@@ -1,5 +1,6 @@
 __author__ = "jacksonsr45@gmail.com"
-new_init_map = {
+
+new_init_exp = {
     'knight': {
         'exp': {
 
