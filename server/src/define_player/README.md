@@ -15,19 +15,19 @@
 
 #### Requereds from a new player
 
-player_name < = > name from player 
-player_world < = > world from player
-player_type < = > type is a class from player
-player_life < = > Total of te life inital from player
-player_mana < = > Total mana of the initial from player
-player_heal < = > Total of the heal initial from player
-player_armor < = > Value of the armor from player
-player_speels < = > Inital speels from player
-player_skills < = > Initial skills from player
-player_set < = > Initial sutup from player
-player_init_map < = > Local initial from player in map
-player_init_exp < = > Value by exp from player
-player_inventary < = > Value inventary from player
+player_name  =  name from player 
+player_world  =  world from player
+player_type  =  type is a class from player
+player_life  =  Total of te life inital from player
+player_mana  =  Total mana of the initial from player
+player_heal  =  Total of the heal initial from player
+player_armor  =  Value of the armor from player
+player_speels  =  Inital speels from player
+player_skills  =  Initial skills from player
+player_set  =  Initial sutup from player
+player_init_map  =  Local initial from player in map
+player_init_exp  =  Value by exp from player
+player_inventary  =  Value inventary from player
 
 ---
 
