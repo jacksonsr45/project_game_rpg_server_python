@@ -7,8 +7,8 @@ setup(
    author='jacksonsr45',
    author_email='jacksonsr45@gmail.com',
    packages=[
-       'server',
-       'teste',
+       '.server',
+       '.teste',
        ],  #same as name
    install_requires=[
        
