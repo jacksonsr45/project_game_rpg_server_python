@@ -1,10 +1,13 @@
 import os
 import sys
+
 path = '../server'
 BASE_DIR = os.path.basename(path)
 sys.path.append(BASE_DIR)
-
-from src.define_player.new_player import New_Player
+try:
+    from src.define_player.new_player import New_Player
+except:
+    from server.src.define_player.new_player import New_Player
 
 
 class TESTE_NEW_PLAYER:
