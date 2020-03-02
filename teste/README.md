@@ -3,9 +3,9 @@
 ## Testing creation new player post in terminal:
 #### In folder server!
 ```
-python game_init_server.py server['teste_new_player']
+python teste_new_player.py
 ```
 *or*
 ```
-python3 game_init_server.py server['teste_new_player']
+python3 teste_new_player.py
 ```
