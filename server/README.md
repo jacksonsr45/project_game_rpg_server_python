@@ -9,7 +9,7 @@ For now just adding a library to be called by it. but this library will be passe
 
 server = {
             'new_player': New_Player,# class new player
-            'teste_new_player': teste_new_player,# file teste new player
+            'new_enemy': New_Enemy,
         }
 
 ```
