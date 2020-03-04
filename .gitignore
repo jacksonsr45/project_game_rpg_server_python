@@ -1,2 +1,5 @@
 venv/
 server_game.egg-info/
+build/
+dist/
+.vscode/
